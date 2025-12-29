@@ -1,0 +1,9 @@
+This is my first newsletter.
+
+## Section 1
+Here is a list of things I like:
+* Coffee
+* Coding
+* Serif fonts
+
+Here is some math: $E=mc^2$

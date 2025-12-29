@@ -1,0 +1,39 @@
+/* css/style.css */
+body {
+    font-family: "Georgia", "Garamond", "Times New Roman", serif;
+    background-color: #fdfbf7; /* Creamy off-white paper color */
+    color: #2a2a2a; /* Dark grey instead of black for softness */
+    max-width: 750px; /* Limits width to look like a document */
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+a {
+    color: #8b0000; /* Dark red links for an old-school feel */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.timestamp {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+/* For LaTeX Math if you use it */
+.math {
+    overflow-x: auto;
+}
