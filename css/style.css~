@@ -37,23 +37,3 @@ a:hover {
 .math {
     overflow-x: auto;
 }
-
-/* Mobile Optimization */
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 22px; /* Increased from 18px to 22px for easier phone reading */
-        padding: 20px 15px; /* Reduce padding so text has more room */
-        line-height: 1.5; /* Slightly tighter line height for mobile */
-    }
-
-    h1 {
-        margin-top: 20px;
-        font-size: 1.5em; /* Make headers slightly relative to the new body size */
-    }
-    
-    /* Ensure images don't overflow off the side of the screen */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
