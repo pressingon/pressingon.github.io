@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     padding: 40px 20px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 h1, h2, h3 {
@@ -41,7 +41,7 @@ a:hover {
 /* Mobile Optimization */
 @media screen and (max-width: 600px) {
     body {
-        font-size: 22px; /* Increased from 18px to 22px for easier phone reading */
+        font-size: 20px; /* Increased 18px to 22px for easier phone reading */
         padding: 20px 15px; /* Reduce padding so text has more room */
         line-height: 1.5; /* Slightly tighter line height for mobile */
     }
